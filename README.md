@@ -2,11 +2,9 @@
 
 ## Overview
 
-Gecko Platform is a platform designed to simplify and secure
-the software delivery lifecycle.
+Gecko Platform is a platform designed to simplify and secure the software delivery lifecycle.
 
-It helps development and platform teams automate application
-delivery from source code to deployment.
+It helps development and platform teams automate application delivery from source code to deployment across multiple environments.
 
 ---
 
@@ -14,46 +12,73 @@ delivery from source code to deployment.
 
 Modern applications require complex delivery chains:
 
-- CI/CD pipelines
-- Docker images
-- Kubernetes deployments
-- Security validation
+* CI/CD pipelines
+* Docker containerization
+* Kubernetes deployments
+* Security validation
+* Environment management
 
-Gecko aims to provide visibility and control over this lifecycle.
+Gecko aims to provide visibility, control and standardization across the entire application lifecycle.
 
 ---
 
 ## Architecture
 
-- Monorepo
-- Modular monolith
-- Clean Architecture
+Gecko is designed as a modular monolith following software engineering best practices.
+
+Architecture principles:
+
+* Monorepo
+* Modular Monolith
+* Clean Architecture
 
 ---
 
 ## Tech Stack
 
-Backend:
-- .NET 9
-- MongoDB
+### Backend
 
-Frontend:
-- Angular 20
+* .NET 9
+* MongoDB
 
-Platform:
-- Docker
-- Kubernetes
-- Helm
-- GitLab CI/CD
+### Frontend
 
----
+* Angular 20
 
-## Repository Structure
+### Platform
 
-...
+* Docker
+* Kubernetes
+* Helm
+* GitLab CI/CD
 
 ---
 
 ## Roadmap
 
-...
+Current status:
+
+* Repository initialization completed
+
+Upcoming milestones:
+
+* Backend foundation
+* Frontend foundation
+* Authentication and security
+* CI/CD pipeline implementation
+* Kubernetes deployment
+* Helm charts
+* DevSecOps integration
+
+---
+
+## Repository Structure
+
+gecko-platform/
+
+```
+backend/
+frontend/
+deployment/
+docs/
+```

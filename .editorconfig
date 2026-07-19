@@ -1,0 +1,55 @@
+# EditorConfig helps maintain consistent coding styles
+# across different editors and IDEs.
+
+root = true
+
+
+#######################################
+# Global settings
+#######################################
+
+[*]
+
+# Encoding
+charset = utf-8
+
+# Line endings (important for Linux/Docker)
+end_of_line = lf
+
+# Add newline at end of files
+insert_final_newline = true
+
+# Remove trailing whitespace
+trim_trailing_whitespace = true
+
+
+#######################################
+# C# / .NET
+#######################################
+
+[*.cs]
+
+indent_style = space
+indent_size = 4
+
+# C# naming style will be handled by Roslyn analyzers later
+
+
+#######################################
+# JSON / YAML
+#######################################
+
+[*.{json,yml,yaml}]
+
+indent_style = space
+indent_size = 2
+
+
+#######################################
+# Frontend Angular
+#######################################
+
+[*.{ts,html,scss}]
+
+indent_style = space
+indent_size = 2
