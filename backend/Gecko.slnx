@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="src/Gecko.Infrastructure/Gecko.Infrastructure.csproj" Id="984b3941-abc5-4ce9-b3ab-ccce1dc0972b" />
+  <Project Path="src/Gecko.Api/Gecko.Api.csproj" Id="652a3b15-e842-41ad-8146-14737c0673cc" />
+  <Project Path="src/Gecko.Application/Gecko.Application.csproj" Id="e74842d3-0b43-4d68-a233-d1466615c456" />
+  <Project Path="src/Gecko.Domain/Gecko.Domain.csproj" />
+  <Project Path="tests/Gecko.IntegrationTests/Gecko.IntegrationTests.csproj" Id="50c35818-1ae1-4e72-82d5-eeec06ff6224" />
+  <Project Path="tests/Gecko.UnitTests/Gecko.UnitTests.csproj" Id="9151c227-034d-475f-9c4f-e58e07189868" />
+</Solution>

@@ -59,6 +59,7 @@ Architecture principles:
 Current status:
 
 * Repository initialization completed
+* Backend solution structure completed
 
 Upcoming milestones:
 
@@ -78,6 +79,17 @@ gecko-platform/
 
 ```
 backend/
+  Gecko.slnx
+  src/
+    Gecko.Api/
+    Gecko.Application/
+    Gecko.Domain/
+    Gecko.Infrastructure/
+  tests/
+    Gecko.UnitTests/
+    Gecko.IntegrationTests/
+
+# Planned in upcoming roadmap steps
 frontend/
 deployment/
 docs/
