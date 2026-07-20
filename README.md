@@ -38,7 +38,7 @@ Architecture principles:
 
 ### Backend
 
-* .NET 9
+* .NET 10
 * MongoDB
 
 ### Frontend

@@ -1,3 +1,6 @@
 <Solution>
+  <Project Path="Gecko.Api/Gecko.Api.csproj" Id="482f466f-a05a-4971-8c5d-35faf329010e" />
+  <Project Path="Gecko.Infrastructure/Gecko.Infrastructure.csproj" Id="a4bc7bea-6f50-43ae-a8dc-36ef421ebeb8" />
+  <Project Path="src/Gecko.Application/Gecko.Application.csproj" Id="e74842d3-0b43-4d68-a233-d1466615c456" />
   <Project Path="src/Gecko.Domain/Gecko.Domain.csproj" />
 </Solution>
